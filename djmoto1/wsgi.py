@@ -10,6 +10,8 @@ https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
+import os.chmod
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djmoto1.settings")
+print("sky_dev")
 
 application = get_wsgi_application()
