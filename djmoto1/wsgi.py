@@ -13,5 +13,6 @@ from django.core.wsgi import get_wsgi_application
 import os.chmod
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djmoto1.settings")
 print("sky_dev")
+print("test2")
 
 application = get_wsgi_application()
